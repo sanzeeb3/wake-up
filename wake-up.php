@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Wake Up
+ * Plugin Name: Wake Up!
  * Description: Popup when an admin in admin area becomes idle for 30 seconds.
  * Version: 1.0.0
  * Author: Sanjeev Aryal

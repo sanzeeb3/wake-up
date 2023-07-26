@@ -1,4 +1,4 @@
-=== Wake Up ===
+=== Wake Up! ===
 Contributors: sanzeeb3
 Tags: wakeup, idle
 Requires at least: 5.0
