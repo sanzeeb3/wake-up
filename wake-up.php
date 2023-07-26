@@ -10,6 +10,10 @@
  * @package    Wake Up
  * @since      1.0.0
  * @license    GPL-3.0+
+ *
+ * @link https://stackoverflow.com/a/55469383/5844795
+ * @link https://github.com/sanzeeb3/wake-up
+ *
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -21,7 +25,7 @@ add_action(
 			<script>
 				let timeout;
 
-				function resetTimer(){
+				function wakeup_resetTimer(){
 					clearTimeout(timeout);
 
 					timeout = setTimeout(function(){
@@ -29,8 +33,8 @@ add_action(
 					}, 30000);
 				}
 
-				document.onmousemove = resetTimer;
-				document.onkeypress = resetTimer;
+				document.onmousemove = wakeup_resetTimer;
+				document.onkeypress = wakeup_resetTimer;
 			</script>
 		<?php
 	}
